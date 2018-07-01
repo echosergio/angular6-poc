@@ -6,7 +6,7 @@ import { UserService } from '../users.service';
   templateUrl: './active-users.component.html',
   styleUrls: ['./active-users.component.css']
 })
-export class ActiveUsersComponent implements OnInit{
+export class ActiveUsersComponent implements OnInit {
 
   users: string[];
 
